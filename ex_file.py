@@ -1,0 +1,7 @@
+src = open('src.txt','r+')
+dest = open('dest.txt','w+')
+origin = src.read()
+dest.write('How many roads must a man walk down\n\nBefore they call him a man\n\n')
+dest.write(origin)
+src.close()
+dest.close()
